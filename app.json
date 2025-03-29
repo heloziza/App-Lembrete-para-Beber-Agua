@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "scheme": "agualembrete",
+    "name": "AguaLembrete",
+    "version": "1.0.0",
+    "extra": {
+      "equipe": [
+        "Desenvolvedor: Heloisa",
+        "Designer: Fabrício",
+        "Suporte: Allana"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "defaultChannel": "default",
+          "enableBackgroundRemoteNotifications": false
+        }
+      ]
+    ]
+  }
+}
